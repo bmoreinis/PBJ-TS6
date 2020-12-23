@@ -1,0 +1,77 @@
+/* 
+ * "PBJ" written in the language "BabySister"
+ * by Savier F
+ */
+
+/* Get Bread */
+/* Get Spreads */
+/* Spread on Bread */
+/* Make Sandwich */
+
+/* Get Tools */
+goTo(cupboard);
+get(plate);
+goTo(counter);
+put(plate);
+goto(drawer);
+get(butterknife);
+goTo(counter);
+put(butterknife);
+
+/* Get the bread */
+goTo(breadBox);
+open(breadBox);
+get(slice);
+hold(slice);
+get(slice)
+goTo(plate);
+put(slice);
+put(slice);
+goto(breadBox);
+close(breadBox);
+
+/* Get Jelly */
+goTo(refrigerator);
+open(refrigerator);
+get(jellyjar);
+hold(jellyjar);
+close(refrigerator);
+goto(counter);
+put(jellyjar);
+
+/* Get Peanut Butter */
+goto(pantry);
+gett(peanutButterJar);
+hold(peanutButterJar);
+goto(table);
+put(peanutbutterjar);
+
+/* Spread Jelly on Bread */
+open(jellyJar);
+get(leftSlice); 
+spread(jelly);
+get(jellyjar);
+close(jellyjar);
+goto(refrigerator);
+open(refrigerator);
+put(jellyjar);
+close(refrigerator);
+
+/* Spread Peanut Butter on Bread */
+get(rightSlice);
+open(peanutButterJar);
+spread(peanutButter);
+close(peanutButterJar);
+goto(table);
+
+get(butterknife);
+hold(butterknife);
+goto(drawer);
+open(drawer);
+put(butterknife);
+close(drawer);
+goto(table);
+get(peanutbutterjar);
+hold(peanutbutterjar);
+goto(pantry);
+put(peanutbutterjar);

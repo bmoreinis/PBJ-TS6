@@ -1,0 +1,54 @@
+/* 
+ * "PBJ" written in the language "BabySister"
+ * by Luis TM
+ * See help.txt for commands 
+ */
+
+
+/* Get Spreads */
+
+/* Spread on Bread */
+
+
+/* Get Tools */
+goTo(cupboard);
+get(plate);
+goTo(counter);
+put(plate);
+
+/* Get Bread */
+open(breadBox);
+get(slice);
+hold(slice);
+get(slice)
+goto(plate);
+put(slice);
+put(slice);
+goto(breadBox);
+close(breadBox);
+
+/* Get & Spread Jelly */
+goto(fridge);
+open(fridge);
+get(jellyJar);
+goto(plate);
+open(jellyJar);
+scoop(jelly);
+spreadOn(slice);
+close(jellyJar);
+goto(fridge);
+put(jellyJar);
+
+/* Get & Spread peanutButter */
+get(pbspread);
+goto(plate);
+open(pbspread);
+spreadOn(slice);
+goto(fridge);
+close(pbspread);
+putIn(fridge);
+close(fridge);
+
+/* Make Sandwich */
+goto(plate);
+eat(slices);

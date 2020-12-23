@@ -1,0 +1,43 @@
+/* 
+ * "PBJ" written in the language "BabySister" 
+ * by Sample
+ * See help.txt for commands 
+ */
+
+goTo(kitchen);
+goTo(cupboard);
+get(plate);
+goTo(drawer);
+get(knife);
+goTo(counter);
+get(breadBox); 
+put(knife);
+put(plate);
+Put(breadbox);
+open(breadbox);
+goTo(fridge);
+get(pbj);
+open(pbj);
+get(slice);
+get(slice);
+hold(slice);
+hold(slice);
+goTo(plate);
+put(slice);
+Put(slice);
+goTo(breadbox);
+close(breadbox);
+goTo(knife);
+hold(knife);
+goTo(plate);
+Put(knife);
+goTo(pbj);
+hold(pbj);
+goTo(plate);
+hold(bread);
+spred(pbj);
+put(bread);
+get(bread);
+spread(pbj); 
+put(pbj together);
+put(pbj on plate);
